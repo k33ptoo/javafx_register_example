@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaFX_BasicDetails.jnlp">
+  <information>
+    <title>JavaFX_BasicDetails</title>
+    <vendor>proxc</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFX_BasicDetails.jar" size="7531" download="eager" />
+    <jar href="lib\jfoenix.jar" size="2323355" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="JavaFX_BasicDetails" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="javafx_basicdetails.JavaFX_BasicDetails"  name="JavaFX_BasicDetails" />
+  <update check="always"/>
+</jnlp>
